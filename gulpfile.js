@@ -15,6 +15,7 @@ const imagemin = require("gulp-imagemin");
 const del = require("del");
 const panini = require("panini");
 const browsersync = require("browser-sync").create();
+const babel = require("gulp-babel");
 
 
 /* Paths */
@@ -79,7 +80,8 @@ function css() {
         .pipe(plumber())
         .pipe(sass())
         .pipe(autoprefixer({
-            cascade: true
+            cascade: true,
+            flexbox: true
         }))
         .pipe(cssbeautify())
         .pipe(dest(path.build.css))
@@ -103,6 +105,9 @@ function js() {
         .pipe(plumber())
         .pipe(rigger())
         .pipe(gulp.dest(path.build.js))
+        .pipe(babel({
+            presets: ['@babel/env']
+        }))
         .pipe(uglify())
         .pipe(rename({
             suffix: ".min",

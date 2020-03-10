@@ -1,0 +1,16 @@
+.logo {
+    
+    &__text {
+        font-family: 'Boomboom', serif, sans-serif;
+        font-weight: 400;
+
+        color: $text;
+        
+        font-size: 16px;
+        letter-spacing: 0.48px;
+
+        text-transform: uppercase;
+
+        margin-top: 3px;
+    }
+}

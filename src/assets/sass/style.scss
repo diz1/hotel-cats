@@ -1,16 +1,17 @@
-// Bootstrap
-
-@import 'vendors/bootstrap-grid'; // Сетка
-
 // Vendors
 
 @import 'vendors/reset'; // Сброс CSS
+@import 'vendors/bootstrap-grid'; // Сетка
 
 
 // Vars
 
 @import 'vars/colors'; // Цвета
+@import 'vars/fonts'; // Шрифты
+
 
 // Blocks
 
 @import 'blocks/header';
+@import 'blocks/logo';
+@import 'blocks/nav';

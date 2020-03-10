@@ -1,0 +1,21 @@
+.nav {
+    &-list {
+
+        &__item {
+            margin-right: 30px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &__link {
+            font-family: 'Lato', serif, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+
+            
+            color: $text;
+        }
+    }
+}

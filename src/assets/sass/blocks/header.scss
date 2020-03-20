@@ -1,10 +1,14 @@
 .header {
     
     &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
         padding: 12px 0;
     }
 }
 
-#f {
-    border: .5px solid red !important;
-}
+// #f {
+//     border: .5px solid red !important;
+// }

@@ -1,0 +1,38 @@
+.btn {
+    padding: 14px 63px 17px 30px;
+
+    box-shadow: 0 5px 25px rgba(26, 33, 47, 0.1);
+    border-radius: 25px;
+
+    border: none;
+
+    background-color: $white;
+
+    &__text{
+        position: relative;
+
+        color: $text;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: -7px;
+            right: -57px;
+
+            width: 21px;
+            height: 18px;
+
+            background-image: url('../img/intro/btn-img.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: $orange;
+
+            padding: 9px 8px;
+
+            border-radius: 50%;
+        }
+    }
+}

@@ -26,10 +26,10 @@
 </div> -->
 <header class="header">
     <div class="container">
-        <div class="header__wrapper row d-flex justify-content-between align-items-center">
-            <div class="logo col-xl-1 col-sm-2 col-auto">
+        <div class="header__wrapper">
+            <div class="logo">
                 <div class="logo__wrapper">
-                    <a class="d-flex flex-column justify-content-between align-items-center" href="#">
+                    <a class="logo__link" href="#">
                         <div class="logo__image">
                             <img src="./assets/img/header/logo.svg" alt="Лого">
                         </div>
@@ -37,8 +37,8 @@
                     </a>
                 </div>
             </div>
-            <nav class="nav col-xl-5 col-lg-6 col-md-8 col-sm-10 col">
-                <ul class="nav-list row justify-content-around">
+            <nav class="nav">
+                <ul class="nav-list row justify-content-end no-gutters">
                     <li class="nav-list__item"><a class="link nav-list__link" href="#">Почему мы?</a></li>
                     <li class="nav-list__item"><a class="link nav-list__link" href="#">Номера</a></li>
                     <li class="nav-list__item"><a class="link nav-list__link" href="#">Отзывы</a></li>
@@ -47,9 +47,108 @@
             </nav>
         </div>
     </div>
-    
-    
 </header>
+
+<section class="section  intro">
+    <div class="container">
+        <div class="section__wrapper  intro__wrapper">
+            <div class="intro-text">
+                <span class="intro-text__city">Санкт-Петербург</span>
+                <h1 class="intro-text__title">Котейка</h1>
+                <span class="intro-text__description">Уютная гостиница для котов и кошек</span>
+                <button class="btn intro-text__btn"><span class="btn__text">Забронировать</span></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section  about">
+    <div class="container">
+        <div class="section__wrapper  about__wrapper">
+            <h2 class="section__title  about__title">Почему мы?</h2>
+            <div class="about-cards">
+                <div class="item about-cards__item">
+                    <div class="item__wrapper">
+                        <div class="item__image">
+                            <img src="/assets/img/about/temp-img.svg" alt="temp-img">
+                        </div>
+                        <h3 class="item__title">Комфортная температура</h3>
+                        <div class="item__text">Во&nbsp;всех номерах поддерживается комфортная температура в пределах 23&nbsp;-&nbsp;25 градусов. В&nbsp;каждом номере можно&nbsp;дополнительно отрегулировать температуру. </div>
+                    </div>
+                </div>
+                <div class="item about-cards__item">
+                    <div class="item__wrapper">
+                        <div class="item__image">
+                            <img src="/assets/img/about/cctv-img.svg" alt="cctv-img">
+                        </div>
+                        <h3 class="item__title">Видеонаблюдение</h3>
+                        <div class="item__text">Мы&nbsp;предоставляем доступ в&nbsp;нашу систему. Вы&nbsp;сможете следить за&nbsp;своим&nbsp;питомцем со&nbsp;своего смартфона&nbsp;или&nbsp;компьютера.</div>
+                    </div>
+                </div>
+                <div class="item about-cards__item">
+                    <div class="item__wrapper">
+                        <div class="item__image">
+                            <img src="/assets/img/about/car-img.svg" alt="car-img">
+                        </div>
+                        <h3 class="item__title">Услуги Зоотакси</h3>
+                        <div class="item__text">Мы&nbsp;приедем за&nbsp;вашим питомцем в&nbsp;любой район Санкт-Петербурга.</div>
+                    </div>
+                </div>
+                <div class="item about-cards__item">
+                    <div class="item__wrapper">
+                        <div class="item__image">
+                            <img src="/assets/img/about/food-img.svg" alt="food-img">
+                        </div>
+                        <h3 class="item__title">Сбалансированное питание</h3>
+                        <div class="item__text">Вы&nbsp;можете привезти свой корм или&nbsp;доверить рацион своего питомца&nbsp;нашим&nbsp;профессионалам.</div>
+                    </div>
+                </div>
+                <div class="item about-cards__item">
+                    <div class="item__wrapper">
+                        <div class="item__image">
+                            <img src="/assets/img/about/walk-img.svg" alt="walk-img">
+                        </div>
+                        <h3 class="item__title">Ежедневные прогулки</h3>
+                        <div class="item__text">По&nbsp;вашему желанию мы&nbsp;выгуливаем вашего питомца два раза в&nbsp;день на&nbsp;специализированной закрытой территории.</div>
+                    </div>
+                </div>
+                <div class="item about-cards__item">
+                    <div class="item__wrapper">
+                        <div class="item__image">
+                            <img src="/assets/img/about/doc-img.svg" alt="doc-img">
+                        </div>
+                        <h3 class="item__title">Лучшие ветеринары</h3>
+                        <div class="item__text">В&nbsp;гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в&nbsp;случае необходимости.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section  rooms">
+    <div class="container">
+        <div class="section__wrapper  rooms__wrapper">
+            <div class="room">
+                <h3 class="section__title  room__title">Номера</h3>
+                <div class="room__wrapper">
+                    <div class="room-image">
+                        <img src="/assets/img/rooms/room-img1.jpg" alt="cat">
+                    </div>
+                    <div class="room-text">
+                        <h4 class="room-text__title">Эконом плюс</h4>
+                        <ul class="room-text-list">
+                            <li class="room-text-list__item">Площадь - 0,90 м2</li>
+                            <li class="room-text-list__item">Размеры (ШхГхВ) — 90х100х180 см</li>
+                            <li class="room-text-list__item">Цена за сутки: 200₽</li>
+                        </ul>
+                        <button class="btn  room-text-btn"><span class="btn__text  room-text-btn__text">Забронировать</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="assets/js/script.min.js"></script>
 </body>

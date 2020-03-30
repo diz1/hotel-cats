@@ -1,7 +1,9 @@
 .section {
     &__wrapper {
-        padding: 134px 0 0;
+        // padding: 134px 0 0;
+        margin-bottom: 50px;
     }
+
     &__title {
         color: $text;
         font-family: 'Rubik', sans-serif;

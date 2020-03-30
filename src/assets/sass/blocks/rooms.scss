@@ -1,5 +1,7 @@
 .room {
 
+    &-arrows__left
+
     &s{
         background-image: url('../img/rooms/rooms-bg.svg');
         background-repeat: no-repeat;
@@ -78,4 +80,37 @@
             }
         }
     }
+}
+
+.navigation {
+    max-width: 600px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.dots {
+    display: flex;
+    order: 1;
+
+    & li button{
+        width: 10px;
+        height: 12px;
+        background-color: #E1E1E1;
+        border: none;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    & li.slick-active button{
+        background-color: $yellow;
+    }
+}
+
+.arrows {
+    cursor: pointer;
+    display: flex;
+    order: 2;
 }

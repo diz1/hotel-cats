@@ -2,22 +2,6 @@
 layout: default
 title: Hotel cats | Современный отель для кошек
 ---
-<!-- <div class="container">
-    <div class="row">
-        <div id="f" class="col-1">1</div>
-        <div id="f" class="col-1">2</div>
-        <div id="f" class="col-1">3</div>
-        <div id="f" class="col-1">4</div>
-        <div id="f" class="col-1">5</div>
-        <div id="f" class="col-1">6</div>
-        <div id="f" class="col-1">7</div>
-        <div id="f" class="col-1">8</div>
-        <div id="f" class="col-1">9</div>
-        <div id="f" class="col-1">10</div>
-        <div id="f" class="col-1">11</div>
-        <div id="f" class="col-1">12</div>
-    </div>
-</div> -->
 <header class="header">
     <div class="container">
         <div class="header__wrapper">
@@ -64,7 +48,7 @@ title: Hotel cats | Современный отель для кошек
                 <div class="item about-cards__item">
                     <div class="item__wrapper">
                         <div class="item__image">
-                            <img src="/assets/img/about/temp-img.svg" alt="temp-img">
+                            <img src="./assets/img/about/temp-img.svg" alt="temp-img">
                         </div>
                         <h3 class="item__title">Комфортная температура</h3>
                         <div class="item__text">Во&nbsp;всех номерах поддерживается комфортная температура в пределах 23&nbsp;-&nbsp;25 градусов. В&nbsp;каждом номере можно&nbsp;дополнительно отрегулировать температуру. </div>
@@ -73,7 +57,7 @@ title: Hotel cats | Современный отель для кошек
                 <div class="item about-cards__item">
                     <div class="item__wrapper">
                         <div class="item__image">
-                            <img src="/assets/img/about/cctv-img.svg" alt="cctv-img">
+                            <img src="./assets/img/about/cctv-img.svg" alt="cctv-img">
                         </div>
                         <h3 class="item__title">Видеонаблюдение</h3>
                         <div class="item__text">Мы&nbsp;предоставляем доступ в&nbsp;нашу систему. Вы&nbsp;сможете следить за&nbsp;своим&nbsp;питомцем со&nbsp;своего смартфона&nbsp;или&nbsp;компьютера.</div>
@@ -82,7 +66,7 @@ title: Hotel cats | Современный отель для кошек
                 <div class="item about-cards__item">
                     <div class="item__wrapper">
                         <div class="item__image">
-                            <img src="/assets/img/about/car-img.svg" alt="car-img">
+                            <img src="./assets/img/about/car-img.svg" alt="car-img">
                         </div>
                         <h3 class="item__title">Услуги Зоотакси</h3>
                         <div class="item__text">Мы&nbsp;приедем за&nbsp;вашим питомцем в&nbsp;любой район Санкт-Петербурга.</div>
@@ -91,7 +75,7 @@ title: Hotel cats | Современный отель для кошек
                 <div class="item about-cards__item">
                     <div class="item__wrapper">
                         <div class="item__image">
-                            <img src="/assets/img/about/food-img.svg" alt="food-img">
+                            <img src="./assets/img/about/food-img.svg" alt="food-img">
                         </div>
                         <h3 class="item__title">Сбалансированное питание</h3>
                         <div class="item__text">Вы&nbsp;можете привезти свой корм или&nbsp;доверить рацион своего питомца&nbsp;нашим&nbsp;профессионалам.</div>
@@ -100,7 +84,7 @@ title: Hotel cats | Современный отель для кошек
                 <div class="item about-cards__item">
                     <div class="item__wrapper">
                         <div class="item__image">
-                            <img src="/assets/img/about/walk-img.svg" alt="walk-img">
+                            <img src="./assets/img/about/walk-img.svg" alt="walk-img">
                         </div>
                         <h3 class="item__title">Ежедневные прогулки</h3>
                         <div class="item__text">По&nbsp;вашему желанию мы&nbsp;выгуливаем вашего питомца два раза в&nbsp;день на&nbsp;специализированной закрытой территории.</div>
@@ -109,7 +93,7 @@ title: Hotel cats | Современный отель для кошек
                 <div class="item about-cards__item">
                     <div class="item__wrapper">
                         <div class="item__image">
-                            <img src="/assets/img/about/doc-img.svg" alt="doc-img">
+                            <img src="./assets/img/about/doc-img.svg" alt="doc-img">
                         </div>
                         <h3 class="item__title">Лучшие ветеринары</h3>
                         <div class="item__text">В&nbsp;гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в&nbsp;случае необходимости.</div>
@@ -123,23 +107,198 @@ title: Hotel cats | Современный отель для кошек
 <section class="section  rooms">
     <div class="container">
         <div class="section__wrapper  rooms__wrapper">
-            <div class="room">
-                <h3 class="section__title  room__title">Номера</h3>
-                <div class="room__wrapper">
-                    <div class="room-image">
-                        <img src="/assets/img/rooms/room-img1.jpg" alt="cat">
+            <h3 class="section__title  room__title">Номера</h3>
+            <div class="rooms__items">
+                <div class="room">
+                    <div class="room__wrapper">
+                        <div class="room-image">
+                            <img src="./assets/img/rooms/room-img1.jpg" alt="cat">
+                        </div>
+                        <div class="room-text">
+                            <h4 class="room-text__title">Эконом плюс</h4>
+                            <ul class="room-text-list">
+                                <li class="room-text-list__item">Площадь - 0,90 м2</li>
+                                <li class="room-text-list__item">Размеры (ШхГхВ) — 90х100х180 см</li>
+                                <li class="room-text-list__item">Цена за сутки: 200₽</li>
+                            </ul>
+                            <button class="btn  room-text-btn"><span class="btn__text  room-text-btn__text">Забронировать</span></button>
+                        </div>
                     </div>
-                    <div class="room-text">
-                        <h4 class="room-text__title">Эконом плюс</h4>
-                        <ul class="room-text-list">
-                            <li class="room-text-list__item">Площадь - 0,90 м2</li>
-                            <li class="room-text-list__item">Размеры (ШхГхВ) — 90х100х180 см</li>
-                            <li class="room-text-list__item">Цена за сутки: 200₽</li>
-                        </ul>
-                        <button class="btn  room-text-btn"><span class="btn__text  room-text-btn__text">Забронировать</span></button>
+                </div>
+                <div class="room">
+                    <div class="room__wrapper">
+                        <div class="room-image">
+                            <img src="./assets/img/rooms/room-2.jpg" alt="cat">
+                        </div>
+                        <div class="room-text">
+                            <h4 class="room-text__title">Комфорт</h4>
+                            <ul class="room-text-list">
+                                <li class="room-text-list__item">Площадь - 1,13 м2</li>
+                                <li class="room-text-list__item">Размеры (ШхГхВ) - 100х125х180 см</li>
+                                <li class="room-text-list__item">Цена за сутки: 250₽</li>
+                            </ul>
+                            <button class="btn  room-text-btn"><span class="btn__text  room-text-btn__text">Забронировать</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="room">
+                    <div class="room__wrapper">
+                        <div class="room-image">
+                            <img src="./assets/img/rooms/room-3.jpg" alt="cat">
+                        </div>
+                        <div class="room-text">
+                            <h4 class="room-text__title">Сьют</h4>
+                            <ul class="room-text-list">
+                                <li class="room-text-list__item">Площадь - 1,56 м2</li>
+                                <li class="room-text-list__item">Размеры (ШхГхВ) - 125х125х180 см</li>
+                                <li class="room-text-list__item">Цена за сутки: 350₽</li>
+                            </ul>
+                            <button class="btn  room-text-btn"><span class="btn__text  room-text-btn__text">Забронировать</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation room__navigation">
+                <div class="arrows">
+                    <div class="room__left">
+                        <img src="./assets/img/rooms/left.svg" alt="left">
+                    </div>
+                    <div class="room__right">
+                        <img src="./assets/img/rooms/right.svg" alt="right">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<section class="section  feedback">
+    <div class="container">
+        <div class="section__wrapper  feedback__wrapper">
+            <h3 class="section__title  feedback__title">Отзывы</h3>
+            <div class="feedback-items">
+                <div class="feedback__item">
+                    <div class="feedback-item__wrapper">
+                        <div class="feedback__quote">
+                            <img src="./assets/img/feedback/quote.svg" alt="quote">
+                        </div>
+                        <div class="feedback__content">
+                            <p class="feedback__text">Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!</p>
+                            <div class="feedback__footer">
+                                <span class="feedback__author">Валерия Гришаева</span>
+                                <span class="feedback__date">15 ноября, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback-item__wrapper">
+                        <div class="feedback__quote">
+                            <img src="./assets/img/feedback/quote.svg" alt="quote">
+                        </div>
+                        <div class="feedback__content">
+                            <p class="feedback__text">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.</p>
+                            <div class="feedback__footer">
+                                <span class="feedback__author">Екатерина Минаева</span>
+                                <span class="feedback__date">10 октября, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback-item__wrapper">
+                        <div class="feedback__quote">
+                            <img src="./assets/img/feedback/quote.svg" alt="quote">
+                        </div>
+                        <div class="feedback__content">
+                            <p class="feedback__text">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно. </p>
+                            <div class="feedback__footer">
+                                <span class="feedback__author">Павел Нечаев</span>
+                                <span class="feedback__date">2 августа, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation feed__navigation">
+                <div class="arrows">
+                    <div class="feed__left">
+                        <img src="./assets/img/rooms/left.svg" alt="left">
+                    </div>
+                    <div class="feed__right">
+                        <img src="./assets/img/rooms/right.svg" alt="right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section  map">
+    <div class="container">
+        <div class="section__wrapper  map__wrapper">
+            <div class="map__contacts">
+                <h3 class="section__title  map__title">Как нас найти</h3>
+                <div class="contact-block">
+                    <h4 class="block__title">Адрес</h4>
+                    <span class="block__description">Санкт-Петербург, ул. Большая Конюшенная, д. 19</span>
+                </div>
+                <div class="contact-block">
+                    <h4 class="block__title">Режим работы</h4>
+                    <span class="block__description">Ежедневно, с 9:00 до 20:00</span>
+                </div>
+                <div class="contact-block">
+                    <h4 class="block__title">Телефон</h4>
+                    <span class="block__description"><a href="tel:88003335599">8 (800) 333-55-99</a></span>
+                </div>
+                <div class="contact-block">
+                    <h4 class="block__title">E-mail</h4>
+                    <span class="block__description"><a href="mailto:info@cat-hotel.ru">info@cat-hotel.ru</a></span>
+                </div>
+                <div class="contact-block">
+                    <h4 class="block__title">Социальные сети</h4>
+                    <div class="block__social-links">
+                        <a href="#" class="social__link">
+                            <img src="./assets/img/icons/vk.svg" alt="vk">
+                        </a>
+                        <a href="#" class="social__link">
+                            <img src="./assets/img/icons/inst.svg" alt="inst">
+                        </a>
+                        <a href="#" class="social__link">
+                            <img src="./assets/img/icons/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="map__map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A53754114eb71ade7234419c77ecd9efa6ad3c26613c3404a79272ed299e754de&amp;source=constructor" width="800" height="580" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="header  footer">
+    <div class="container">
+        <div class="header__wrapper  footer__wrapper">
+            <div class="logo">
+                <div class="logo__wrapper">
+                    <a class="logo__link" href="#">
+                        <div class="logo__image">
+                            <img src="./assets/img/header/logo.svg" alt="Лого">
+                        </div>
+                        <span class="logo__text">Котейка</span>
+                    </a>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a class="link nav-list__link" href="#">Почему мы?</a></li>
+                    <li class="nav-list__item"><a class="link nav-list__link" href="#">Номера</a></li>
+                    <li class="nav-list__item"><a class="link nav-list__link" href="#">Отзывы</a></li>
+                    <li class="nav-list__item"><a class="link nav-list__link" href="#">Как нас найти</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__text">
+            <div class="footer__copyright">&copy; 2019 Все права защищены</div>
+            <div class="footer__policy">Политика конфиденциальности</div>
+        </div>
+    </div>
+</footer>

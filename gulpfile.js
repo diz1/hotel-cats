@@ -42,7 +42,7 @@ var path = {
         fonts: "src/assets/fonts/**/*.{eot,otf,ttf,woff,woff2}"
     },
     clean: "./dist"
-}
+};
 
 
 

@@ -1,0 +1,40 @@
+.banner {
+  max-width: 100%;
+  width: 100%;
+
+
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+
+  &__wrapper {
+
+    margin: 140px 0;
+    padding: 78px 0 78px 270px;
+
+    background-image: url('../img/banner/banner-bg.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 15px;
+  }
+
+  &__title {
+    max-width: 320px;
+    font-size: 36px;
+
+    margin-bottom: 25px;
+
+    &_strong {
+      font-size: 56px;
+    }
+  }
+
+  &__subtitle {
+    display: block;
+    max-width: 320px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+
+    margin-bottom: 35px;
+  }
+}

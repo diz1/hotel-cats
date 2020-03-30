@@ -1034,3 +1034,127 @@ a {
     font-size: 12px;
     font-weight: 400;
 }
+
+.banner {
+    max-width: 100%;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.banner__wrapper {
+    margin: 140px 0;
+    padding: 78px 0 78px 270px;
+    background-image: url("../img/banner/banner-bg.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.banner__title {
+    max-width: 320px;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.banner__title_strong {
+    font-size: 56px;
+}
+
+.banner__subtitle {
+    display: block;
+    max-width: 320px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 35px;
+}
+
+.catalog__wrapper {
+    margin-top: 70px;
+}
+
+.catalog__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.catalog__sort {
+    width: 174px;
+    -webkit-box-shadow: 0 2px 12px 0 #ad988f;
+    box-shadow: 0 2px 12px 0 #ad988f;
+    border-radius: 30px;
+    border: none;
+    padding: 12px 0 12px 30px;
+}
+
+.catalog__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.catalog__filter {
+    -ms-flex-preferred-size: 210px;
+    flex-basis: 210px;
+}
+
+.filter__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.filter__title {
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.filter__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.filter__parameter {
+    max-width: 100px;
+    margin: 0 10px 15px 0;
+    border: 1px solid #e1e1e1;
+}
+
+.filter__label {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.filter__reset {
+    padding: 15px 36px 17px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid #FAC663;
+    border-radius: 30px;
+}

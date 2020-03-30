@@ -1,6 +1,3 @@
-//= slick.min.js
-
-
 $(document).ready(function(){
     $('.rooms__items').slick({
         dots: true,
@@ -36,6 +33,6 @@ $(document).ready(function(){
     button6.textContent = '';
 });
 
-    
+
 
 

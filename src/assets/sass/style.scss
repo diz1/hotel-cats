@@ -2,6 +2,7 @@
 
 @import 'vendors/reset';            // Сброс CSS
 @import "vendors/slick.scss";
+@import "vendors/select2";
 //@import 'vendors/bootstrap-grid';   // Сетка
 
 
@@ -28,3 +29,9 @@
 @import 'blocks/footer';
 @import 'blocks/banner';
 @import 'blocks/catalog';
+@import 'blocks/cards';
+@import 'blocks/page';
+
+a {
+  color: #FFFEFD;
+}

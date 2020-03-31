@@ -1,3 +1,5 @@
+
+// Slick parameters
 $(document).ready(function(){
     $('.rooms__items').slick({
         dots: true,
